@@ -2,6 +2,10 @@ import './App.css'
 
 import Texte from './Texte';
 import Commuta from './Commuta';
+import CirculoClick from './CirculoClick';
+import CirculoInput from './CirculoInput';
+import BotonesMasYMenos from './BotonesMasYMenos';
+import BotonesNumericosLimite from './BotonesNumericosLimite';
 
 
 
@@ -14,6 +18,13 @@ function App() {
       <h1>Hola que tal</h1>
       <Texte contingut={lorem} mida="12px"/>
       <Commuta  />
+      <CirculoClick />
+      <CirculoClick />
+      <CirculoClick />
+      <CirculoClick />
+      <CirculoInput/>
+      <BotonesMasYMenos/>
+      <BotonesNumericosLimite/>
     </>
   )
 }
