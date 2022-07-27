@@ -13,11 +13,11 @@ function UltimoProblema() {
     return(
         <>
         <button type='button' onClick={menos}>-</button>
-        <span></span>
-        <span></span>
+        <span>{actiu-2}</span>
+        <span>{actiu-1}</span>
         <span>{actiu}</span>
-        <span></span>
-        <span></span>
+        <span>{actiu+1}</span>
+        <span>{actiu+2}</span>
         <button  type='button' onClick={suma}>+</button>
         </>
     )

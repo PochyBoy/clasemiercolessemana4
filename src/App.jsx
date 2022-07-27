@@ -6,6 +6,7 @@ import CirculoClick from './CirculoClick';
 import CirculoInput from './CirculoInput';
 import BotonesMasYMenos from './BotonesMasYMenos';
 import BotonesNumericosLimite from './BotonesNumericosLimite';
+import UltimoProblema from './UltimoProblema';
 
 
 
@@ -25,6 +26,8 @@ function App() {
       <CirculoInput/>
       <BotonesMasYMenos/>
       <BotonesNumericosLimite/>
+      <br />
+      <UltimoProblema/>
     </>
   )
 }
